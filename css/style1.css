@@ -1,8 +1,8 @@
-html, body{
+html, body {
     height: 100%;
 }
 
-main{
+main {
     background-color: yellow;
     min-height: 100%;
     display: flex;
@@ -11,7 +11,7 @@ main{
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
     gap: 64px;
@@ -23,4 +23,17 @@ nav ul{
     flex-direction: column;
     gap: 16px;
     list-style-type: none;
+}
+
+.pane {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    flex: 1;
+}
+
+.mango {
+    width: 100%;
 }
