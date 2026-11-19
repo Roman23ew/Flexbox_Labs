@@ -39,7 +39,8 @@
     justify-content: space-between;
 }
 
-.card-price {
+
+.card-description {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
