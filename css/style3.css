@@ -26,9 +26,13 @@ html, body {
 
 header, footer {
     flex: 0 0 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
-center {
+.center {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -38,8 +42,16 @@ center {
 
 nav, aside {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 main {
     flex:3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
