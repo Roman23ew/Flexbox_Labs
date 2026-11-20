@@ -1,15 +1,29 @@
-.color1{
+html, body {
+    height: 100%;
+}
+
+.color1 {
     background-color: lightblue;
 }
-.color2{
+.color2 {
     background-color: lightgreen;
 }
-.color3{
+.color3 {
     background-color: lightcoral;
 }
-.color4{
+.color4 {
     background-color: lavender;
 }
-.color5{
+.color5 {
     background-color: lightgoldenrodyellow;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    flex: 0 0 150px;
 }
